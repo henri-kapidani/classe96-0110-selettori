@@ -1,0 +1,55 @@
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.plate:nth-child(3) {
+	color: salmon;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid black;
+}
+
+
+/* tabella 1 */
+.tb-results tr:first-child {
+	background-color: brown;
+}
+
+.tb-results tr:nth-child(2n+3) {
+	background-color: aqua;
+}
+
+
+/* tabella 2 */
+.tb-prices {
+
+}
+
+.tb-prices tr {
+
+}
+
+.tb-prices td {
+
+}
+
+
+/* tabella 3 */
+.tb-visits {
+
+}
+
+.tb-visits tr {
+
+}
+
+.tb-visits td {
+
+}
